@@ -1,0 +1,37 @@
+/* -*- mode: web; -*- */
+
+@import url('https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Volkhov');
+
+:root {
+  font-family:   'Roboto Slab', serif;
+  --font-code:   'Fira Code';
+  --font-header: 'Volkhov', serif;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family:   var(--font-header);
+  color:         var(--color-base1);
+  margin-bottom: .3em;
+}
+.remark-slide-content{
+  background-color: var(--color-base03);
+  color:            var(--color-base2);
+}
+
+strong{
+  color:            var(--color-violet);
+}
+em{
+  color:            var(--color-blue);
+}
+.remark-code, .remark-inline-code {
+  font-family:      var(--font-code);
+  color:            var(--color-yellow);
+}
+pre {
+  background-color: var(--color-base02);
+  padding:          .7em;
+  border-radius:    .5em;
+}
